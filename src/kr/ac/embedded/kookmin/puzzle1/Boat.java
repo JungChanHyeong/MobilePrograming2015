@@ -7,10 +7,10 @@ public class Boat {
 	}
 	
 	public int getLength() {
-		  /** **/
+		return length;
 	}
 	
 	public void move() {
-		System.out.print(/** **/);
+		System.out.print("drift ");
 	}
 }
