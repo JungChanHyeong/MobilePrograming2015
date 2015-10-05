@@ -1,5 +1,5 @@
 package kr.ac.kookmin.shape;
-
+	
 public class Rectangle extends Shape{
 	private int h;
 	private int w;

@@ -1,5 +1,5 @@
 package kr.ac.kookmin.shape;
-
+	
 public class Ellipse extends Shape{
 	private int w;
 	private int h;

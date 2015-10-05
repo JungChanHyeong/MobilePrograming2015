@@ -1,5 +1,5 @@
 package kr.ac.kookmin.shape;
-
+	
 public class Point {
 	private int x;
 	private int y;

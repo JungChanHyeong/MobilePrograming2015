@@ -1,5 +1,5 @@
 package kr.ac.embedded.kookmin.puzzle1;
-
+	
 public class TestBoats {
 	public static void main(String[] args) {
 		Boat  b1 = new Boat();
