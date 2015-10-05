@@ -2,6 +2,7 @@ package kr.ac.kookmin.embedded.callback;
 
 public class CallbackTest implements OnMaxNumberCb {
 
+	
 	/**
 	 * @param args
 	 */
