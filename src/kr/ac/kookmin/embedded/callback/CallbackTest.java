@@ -25,4 +25,5 @@ public class CallbackTest implements OnMaxNumberCb {
 		// TODO Auto-generated method stub
 		System.out.println("Current sum is " + number + " and exceeds " + exceed);
 	}
+	
 }
