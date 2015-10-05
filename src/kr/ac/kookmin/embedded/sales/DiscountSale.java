@@ -6,7 +6,7 @@ package kr.ac.kookmin.embedded.sales;
  * nonnegative; the name is a nonempty string; the discount is always
  * nonnegative.
  */
-
+	
 public class DiscountSale extends Sale {
 	private double	discount;	// A percent of the price. Cannot be negative.
 								
