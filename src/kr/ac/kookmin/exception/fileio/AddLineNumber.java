@@ -24,7 +24,6 @@ public class AddLineNumber {
 
 			String s = null;
 			int i = 0;
-			outputStream.write(1);
 			while ((s = inputStream.readLine()) != null) {
 				i++;
 				System.out.println(i + " " + s);
