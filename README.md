@@ -1,2 +1,2 @@
 # javalab4
-20123415 Á¤ÂùÇü
+20123415 Jung ChanHyeong
