@@ -21,7 +21,7 @@ class Bank {
 													// 싶다.
 	}
 
-	public void tradeWithA() {
+	public void tradeWithA() throws Exception {
 		int m = 100; // A계좌에서 출금할 금액
 
 		System.out.println("A 계좌에서 출금 - " + m);
@@ -29,7 +29,7 @@ class Bank {
 
 	}
 
-	public void tradeWithB() {
+	public void tradeWithB() throws Exception {
 		int m = 200;
 		System.out.println("B 계좌에서 출금 - " + m);
 		balance -= m;

@@ -9,6 +9,14 @@ import java.io.InputStream;
 
 class AAA {
 
+	public void close(BufferedReader inputStream) {
+		try {
+			inputStream.close();
+		} catch (Exception e) {
+			System.err.println("Caught Exception: " + e.getMessage());
+		}
+	}
+	
 	public void readFile() {
 		File path = new File("src/kr/ac/kookmin/exception/intro");
 		try {
@@ -25,14 +33,6 @@ class AAA {
 			System.err.println("Caught FileNotFoundException: " + e.getMessage());
 		} catch (IOException e) {
 			System.err.println("Caught IOException: " + e.getMessage());
-		}
-	}
-
-	public void close(BufferedReader inputStream) {
-		try {
-			inputStream.close();
-		} catch (Exception e) {
-			System.err.println("Caught Exception: " + e.getMessage());
 		}
 	}
 }
