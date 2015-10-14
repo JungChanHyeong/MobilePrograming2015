@@ -40,8 +40,7 @@ class Bank {
 		System.out.println("C 계좌에서 출금 - " + m);
 		balance -= m;
 		
-		Exception e = new Exception();
-		throw e;
+		throw new Exception();
 	}
 
 	public void cancelA() {
