@@ -11,11 +11,11 @@ public class ThreadMain extends Thread{
 		
 		Thread.sleep(10);
 		
-		synchronized(dc) {
+		synchronized(tm) {
 			while(dc.getCnt() < 10) {
 				dc.addCnt();
 			}
-			dc.notify();
+			tm.notify();
 		}
 	}
 	
